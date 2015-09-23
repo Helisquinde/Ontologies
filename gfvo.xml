@@ -54,7 +54,7 @@
         <rdfs:seeAlso>https://github.com/BioInterchange/Ontologies</rdfs:seeAlso>
         <owl:imports rdf:resource="&obo;so.owl"/>
         <owl:imports rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
-        <owl:imports rdf:resource="http://www.biointerchange.org/faldo.owl"/>
+        <owl:imports rdf:resource="http://biohackathon.org/resource/faldo.ttl"/>
         <owl:imports rdf:resource="http://www.variationontology.org/vario_download/vario.owl"/>
     </owl:Ontology>
     
