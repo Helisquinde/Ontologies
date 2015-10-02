@@ -2931,27 +2931,22 @@ Can be used to indicate a false &quot;Is_circular&quot; attribute in GFF3 and GV
     <rdf:Description>
         <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#GermlineCell"/>
-            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#PrenatalCell"/>
-            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#SomaticCell"/>
+            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#Attribute"/>
+            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#Object"/>
+            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#Process"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#Chromosome"/>
-            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#Genome"/>
-            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#Genotype"/>
-            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#Haplotype"/>
-            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#Scaffold"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#Hemizygous"/>
-            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#Heterozygous"/>
-            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#Homozygous"/>
+            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#AlleleCount"/>
+            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#AlleleFrequency"/>
+            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#Coverage"/>
+            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#Likelihood"/>
+            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#NumberOfReads"/>
+            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#SampleCount"/>
+            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#SampleMixture"/>
+            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#Span"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
@@ -2967,6 +2962,41 @@ Can be used to indicate a false &quot;Is_circular&quot; attribute in GFF3 and GV
     <rdf:Description>
         <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#Hemizygous"/>
+            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#Heterozygous"/>
+            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#Homozygous"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#Cell"/>
+            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#Exome"/>
+            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#Genome"/>
+            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#Proteome"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#Chromosome"/>
+            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#Genome"/>
+            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#Genotype"/>
+            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#Haplotype"/>
+            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#Scaffold"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#GermlineCell"/>
+            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#PrenatalCell"/>
+            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#SomaticCell"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
             <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#MaterialEntity"/>
             <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#Quantity"/>
             <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#Score"/>
@@ -2976,9 +3006,9 @@ Can be used to indicate a false &quot;Is_circular&quot; attribute in GFF3 and GV
     <rdf:Description>
         <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#Exome"/>
-            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#Genome"/>
-            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#Proteome"/>
+            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#BaseQuality"/>
+            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#MappingQuality"/>
+            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#PhredScore"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
@@ -3000,28 +3030,6 @@ Can be used to indicate a false &quot;Is_circular&quot; attribute in GFF3 and GV
     <rdf:Description>
         <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#AlleleCount"/>
-            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#AlleleFrequency"/>
-            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#Coverage"/>
-            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#Likelihood"/>
-            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#NumberOfReads"/>
-            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#SampleCount"/>
-            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#SampleMixture"/>
-            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#Span"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#BaseQuality"/>
-            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#MappingQuality"/>
-            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#PhredScore"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#Cell"/>
             <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#Exome"/>
             <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#Genome"/>
             <rdf:Description rdf:about="http://www.biointerchange.org/gfvo#Proteome"/>
